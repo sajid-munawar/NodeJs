@@ -1,3 +1,6 @@
-const xyz=require('./people')
+// const xyz=require('./people')
 
-console.log(xyz)
+// console.log(xyz)
+
+const os=require('os');
+console.log(os.homedir(),os.platform())
